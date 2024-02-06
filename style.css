@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
 :root {
-    --roxo-mais-escuro: #10002B;
-    --roxo-medio: #7B2CBF;
-    --roxo-mais-claro: #F1E3FC;
+    --roxo-mais-escuro: #DBAAFF;
+    --roxo-medio: #E9CCFC;
+    --roxo-mais-claro: #F3EAF9;
     --preto: #000000;
     --branco: #FFFFFF;
 }
@@ -14,7 +14,7 @@
 
 body {
     font-family: 'Crimson Text', Arial, Helvetica, sans-serif;
-    color: var(--roxo-mais-escuro);
+    color: var(- --preto);
 }
 
 .topo {
@@ -53,7 +53,7 @@ a {
 .botao-primario {
     font-weight: bold;
     background-color: var(--roxo-medio);
-    color: var(--branco);
+    color: var(--preto);
     text-align: center;
     padding: 14px 26px;
     transition: opacity 0.6s ease;
@@ -67,12 +67,13 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: fit-content;
-    padding: 80px;
+    width: auto;
+    padding-bottom: 20px;
+    background-color: var(--roxo-medio);
 }
 
 .header img {
-    width: auto;
+    width: auto%;
 }
 
 .esquerda {
@@ -84,21 +85,23 @@ a {
 
 h1 {
     font-weight: bold;
-    font-size: 50px;
+    font-size: 60px;
     width: 90%;
     line-height: 110%;
 }
 
 .esquerda p {
-    font-size: 18px;
+    font-size: 30px;
     line-height: 130%;
 }
 
 .esquerda .botao-primario {
-    font-size: 22px;
+    font-size: 30px;
     font-weight: bold;
     padding: 10px 50px;
     width: fit-content;
+    background-color: var(--branco);
+    border-radius: 16px;
 }
 
 #produtos {
@@ -223,7 +226,7 @@ h3 {
 
 footer {
     background-color: var(--roxo-medio);
-    color: var(--branco);
+    color: var(--preto);
     padding: 40px 0;
     display: flex;
     justify-content: space-around;
